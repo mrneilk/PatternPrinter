@@ -1,0 +1,36 @@
+﻿<Window x:Class="PatternPrinter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PatternPrinter"
+        mc:Ignorable="d"
+        Title="Pattern Printer" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="550" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label>Your Pattern Here</Label>
+        <TextBlock Grid.Column= "0" Name="OutputWin" Height="200" Width="400"></TextBlock>
+        <TextBlock Grid.Column="1">
+            Enter Number As Per Pattern:
+            <LineBreak></LineBreak>
+            1)Star
+            <LineBreak></LineBreak>
+            2)Diamond
+            <LineBreak/>
+            3)Rectangle
+            <LineBreak/>
+            4)Square
+            <LineBreak></LineBreak>
+            5)Triangle
+        </TextBlock>
+        <Button Content="Print" Grid.Column="1" HorizontalAlignment="Left" Margin="83,153,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox Name="InputNum" Grid.Column="1" HorizontalAlignment="Left" Margin="83,127,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="29"/>
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+D:\Visual Studio Projects\PatternPrinter.exe
+D:\Visual Studio Projects\PatternPrinter.dll
+D:\Visual Studio Projects\PatternPrinter.deps.json
+D:\Visual Studio Projects\PatternPrinter.runtimeconfig.json
+D:\Visual Studio Projects\PatternPrinter.pdb
