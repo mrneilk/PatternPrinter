@@ -1,8 +1,8 @@
---
+
 # PatternPrinter
  WPF application to print simple patterns.
 # How To DownLoad And Use
---
+
  1)Go to Release
  
  2)Download All the Binaries except the .zip and .tar files
